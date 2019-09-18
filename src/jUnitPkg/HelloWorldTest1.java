@@ -10,7 +10,7 @@ import org.testng.Assert;
 
 import static org.junit.Assert.*;
 
-public class HelloWorldTest {
+public class HelloWorldTest1 {
     @BeforeClass
     public  static void  bfrClass () {
         System.out.println("Inside Before Class Method");
@@ -27,6 +27,14 @@ public class HelloWorldTest {
         assertEquals("Inside Test Method", "Inside Test Method");
         Assert.assertTrue("A" == "A");
     }
+
+    @Test
+    public  void test1 () {
+        System.out.println("Inside Test1 Method");
+        assertEquals("Inside Test Method", "Inside Test Method");
+        Assert.assertTrue("A" == "A");
+    }
+
 
     @After
     public  void after () {

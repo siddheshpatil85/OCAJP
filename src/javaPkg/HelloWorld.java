@@ -1,3 +1,5 @@
+package javaPkg;
+
 public class HelloWorld {
     String strTest ;
 
